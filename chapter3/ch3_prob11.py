@@ -2,10 +2,7 @@
 
 import urllib,re
 def getHtml(url):
-	page = urllib.urlopen(url).read()
-	print ('').join(re.findall('[0-9]{3}.[0-9]{3}.[0-9]{3}.[0-9]{3}',page))
 	
-
 
 
 def main():
